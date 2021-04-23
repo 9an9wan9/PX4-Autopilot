@@ -1,0 +1,19 @@
+#!nsh
+#
+# @name Ducted Rotor UAV
+#
+# @type Multi Rotor
+# @class Copter
+#
+# @output MAIN1 rudder 1
+# @output MAIN2 rudder 2
+# @output MAIN3 rudder 3
+# @output MAIN4 rudder 4
+# @output MAIN5 rotor
+
+sh /etc/init.d/rc.mc_defaults
+set MIXER ducted
+
+# use PWM parameters for throttle channel
+set PWM_OUT 5
+
