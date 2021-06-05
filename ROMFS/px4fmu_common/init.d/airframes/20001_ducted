@@ -15,6 +15,6 @@ sh /etc/init.d/rc.mc_defaults
 set MIXER ducted
 
 # use PWM parameters for throttle channel
-set PWM_OUT 5
+set PWM_OUT 12345
 set PWM_MIN 800
 
